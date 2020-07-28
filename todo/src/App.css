@@ -1,0 +1,8 @@
+.App{
+    background-color: violet;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    justify-content: center;
+    text-align: center;
+}
