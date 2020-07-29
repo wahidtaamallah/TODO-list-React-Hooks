@@ -1,0 +1,53 @@
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3c3294;
+    height: 100px;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: teal;
+
+}
+
+button {
+    padding: 5px;
+    color: #5f60af;
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: teal;
+    
+    
+}
+
+#length {
+    color: wheat;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+.lengthOfTasks {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+
+[type="text"] {
+    background-color: white;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    border-radius: 10px;
+}
+
+[type="text"] ::placeholder {
+    color: white;
+}
